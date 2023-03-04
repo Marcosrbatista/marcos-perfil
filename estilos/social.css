@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(imagens/tela-home.jpg)no-repeat top center;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: darkred;
+    padding: 15px;
+}
+
+a:hover {
+    font-weight: bold;
+    background-color: rgb(194, 1, 1);
+    transition-duration: 0.3s;
+}
